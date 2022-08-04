@@ -1,0 +1,232 @@
+/* ==============
+  Font Decleration
+   ============== */
+@font-face {
+    font-family: raleway;
+    src: url("Raleway-Regular.ttf");
+}
+@font-face {
+    font-family: bold;
+    src: url("Raleway-Bold.ttf");
+}
+/* =============================
+  setting top margin and font family
+   ============================== */
+body {
+    margin-top: 0%;
+    font-family: raleway;
+}
+
+.section {
+   margin: 0% 3%;
+
+}
+/* ==============
+       menu 
+   ============== */
+
+.header{
+ display:flex;
+ /* border: 1px solid pink; */
+ justify-content: space-between;
+ height: 2em;
+ 
+
+}
+.logo {
+  font-size: 1.4rem;
+  margin: 0%;
+  /* border: 1px solid rgb(25, 50, 175); */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+span {
+    font-weight: 600;
+}
+.navitms {
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+    font-size: 0.9rem;
+    height: 2em;
+    margin-top: 0em;
+}
+
+ul {
+    list-style: none;
+}
+
+.li{
+    padding: 1em;
+}
+.shadow {
+  padding: 1.2em 0em;
+  box-shadow: 0em 0.6em 0.4em #F0F1F2;
+
+}
+.log {
+    padding: 0.5em 1em;
+    border-radius: 5%;
+    /* border: 0.01rem solid #d9d9d9; */
+    font-size: 0.9rem;
+    margin-top: -1em;
+    border: 0.11rem solid #D9D9D9;
+}
+.sign {
+    padding: 0.5em 1em;
+    border-radius: 7%;
+    /* border: 0.01rem solid #d9d9d9; */
+    background-color:#1890FF;
+    font-size: 0.9rem;
+    margin-top: -1em;
+    border: 0.11rem solid #D9D9D9;
+    color: white;
+
+}
+.sign:hover {
+    color: #191a1b;
+    font-size: 1.12rem;
+}
+.log:hover{
+    color: #1890FF;
+    font-size: 1.12rem;
+}
+
+ a:link{
+    color: rgba(0, 0, 0, 0.856);
+    text-decoration: none;
+ }
+
+a:hover{
+    color: #1890FF;
+    font-size: 1.12rem;
+}
+/* ==============
+      Hero section
+   ============== */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    /* border: 0.01rem solid #59ff06; */
+
+}
+h1 {
+    margin-top: 4rem;
+    font-weight: bold;
+}
+.paragh {
+    /* border: 0.01rem solid #ff0606; */
+     width: 40rem;
+     margin-top: 3rem;
+     font-size: 1.1rem;
+     font-weight: 500;
+
+
+}
+.heroimg {
+    margin-top: 10em;
+} 
+.boost {
+    font-weight: 800;
+    font-size: 1.3rem;
+}
+
+/* =================
+    Bar info section
+   ================= */
+
+.bar {
+     /* border: 1px solid yellow;  */
+     display: flex;
+     justify-content: space-around;
+      align-items: center;
+      margin-top: 6em ;
+      padding: 1.5em 0em;
+      box-shadow: 0em 1em 1em #F0F1F2;
+
+}
+.bartext {
+    font-size: 1.15rem;
+    /* border: 1px solid rgb(255, 4, 146);  */
+    padding: 1em 1em;
+    align-content: center;
+    margin-bottom: 1.2em;
+    font-weight: 600;
+    color: #1890FF;
+
+    
+    
+}
+
+/* =================
+    Learning path section
+   ================= */
+.heading {
+    margin-top: 5em ;
+    /* border: 1px solid rgb(101, 255, 30); */
+     display: flex;
+     justify-content: center;
+}
+    
+/* =================
+    Main Portion
+   ================= */
+.content {
+    display: flex;
+    /* border: 1px solid rgb(26, 41, 255); */
+    justify-content: space-around;
+    margin-top: 5em;
+    margin-bottom: 6em;
+}
+.frontend{
+    /* border: 3px solid rgb(225, 13, 244); */
+    width: 40%;
+   
+    background: linear-gradient(to right,#2F80ED,#7BAEF4,#96BFF6,#56CCF2);
+    border-radius: 0.6em;
+    color: white;
+    padding-right: 1em;
+}
+.backend {
+    /* border: 3px solid rgb(225, 13, 244); */
+    width: 40%;
+    background: linear-gradient(to right,#13C2C2,#87E8DE,#B5F1EB);
+    border-radius: 0.6em;
+    color: white;
+    
+}
+.lp {
+    padding-left: 1.7em;
+    
+}
+ .con-par {
+    font-weight: 100;
+
+}
+.con-par h2 {
+    padding-left: 1.3em;
+} 
+.con-par p {
+    padding-left:1.7em ;
+    padding-right: 2em;
+}
+.details {
+    display: flex;
+    /* border: 1px solid rgb(244, 13, 13); */
+    justify-content: start;
+    align-items: center;
+}
+.duration {
+    padding: 1em 4em;
+}
+.project {
+    padding: 1em 2em;
+}
+
+.duration p {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+
