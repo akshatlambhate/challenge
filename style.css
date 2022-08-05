@@ -230,3 +230,88 @@ h1 {
 }
 
 
+.front {
+    display: flex;
+    background: linear-gradient(to right,#2F80ED,#7BAEF4,#96BFF6,#56CCF2);
+    border-radius: 0.6em;
+    color: white;
+    padding-right: 1em;
+    justify-content: flex-end;
+    margin-top: 3em;
+}
+
+
+.otherfront {
+    /* border: 1px solid rgb(250, 1, 1); */
+     font-size: 1.2rem;
+     margin-right: 13em;
+     padding: 0em 10em 0em 0em;
+ 
+}
+.othercon {
+    /* border: 1px solid black; */
+    padding-right: 5em;
+    text-align: center;
+}
+.texth {
+     /* border: 1px solid firebrick; */
+    
+    align-content: center;
+     margin-top: 10em;
+}
+.mhead {
+    /* border: 1px solid rgb(11, 69, 196); */
+    text-align: center;
+    
+}
+.subhead {
+    text-align: center;
+    padding-top: 0rem;
+
+}
+.iconSec{
+    /* border: 1px solid rgb(11, 69, 196); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5em;
+}
+.icon{
+    margin-left: 5em;
+}
+.icon2 {
+    padding-top: 2.2em;
+}
+.iconparagh{
+    /* border: 1px solid rgb(23, 219, 144); */
+    padding: 0em 0em 0em 0em;
+    margin: 0em 3em 0em 3em;
+    text-align:center;
+    
+
+}
+.iconh{
+    /* border: 1px solid rgb(0, 4, 247); */
+    margin-left: 2em;
+}
+.head2{
+    text-align: center;
+    margin-top: 7em;
+}
+.contweek{
+    display: flex;
+    justify-content: space-around;
+    font-weight: 600;
+    margin-bottom: 10em;
+}
+.week1 {
+    background-color: rgba(24, 144, 255, 0.13);
+}
+.html_css h2 {
+    padding: 2em 0em 0em 3em;
+}
+.html_css p {
+    /* border: 1px solid black; */
+    margin: 0em 45em 0em 4em ;
+
+}
